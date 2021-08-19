@@ -8,6 +8,7 @@
 ### 📕 Aprendizados
 - Aprendi como usar os ícones como fontes. Utilizei o site [Font Awesome](https://fontawesome.com/v4.7/icons/) e importei como CDN.
 - Aprendi também como usar o @import no Css.
+- Um pouco mais sobre @keyframes e animações e transições.
 
 ### 🏁 Instalação
 
