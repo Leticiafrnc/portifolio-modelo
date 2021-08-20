@@ -2,7 +2,7 @@
  Esse projeto foi desenvolvido como projeto de estudo, realizei algumas modificações no projeto, assim fortalecendo meus aprendizados em HTML, Css e Js. 
 
 <h4 align="center"> 
-🚧 ... Em Contrução... 🚧
+🚧 ... Em Construção... 🚧
 </h4>
 
 ### 📕 Aprendizados
