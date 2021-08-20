@@ -34,11 +34,10 @@
         <aside class="sidebar">
             <nav>
                 <ul class="menu">
-                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
                     <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimentos</a></li>
-                    <li class="menu-item"><a href="#contato" class="menu-link">Projetos</a></li>
-                    <li class="menu-item"><a href="#projetos" class="menu-link">Portfólio</a></li>
-                    <li class="menu-item"><a href="#orcamento" class="menu-link">Contato</a></li>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
                 </ul>
             </nav>
             <div class="social-media">
@@ -167,8 +166,47 @@
                     </div>
                 </div>
             </div>
-
             </section>
+            <section class="sessao-contato" id="contato">
+                <div class="contato-wrapper">
+                    <div class="contato-left"></div>
+                    <div class="contato-right">
+                        <h1>Contato</h1>
+                        <form>
+                            <div class="input-group">
+                                <input type="text" class="field" id="nome">
+                                <label for="nome" class="field-label">Nome</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" class="field" id="email">
+                                <label for="email" class="field-label">E-mail</label>
+                            </div>
+                            <div class="input-group">
+                                <textarea class="field" id="mensagem"></textarea>
+                                <label for="mensagem" class="field-label">Mensagem</label>
+                            </div>
+                            <button type="submit" class="btn btn-submit">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div class="footer-content">
+                  <p>
+                    Copyright &copy; 2020, ETECIA DS - Todos os diretos reservados
+                  </p>
+                  <div class="social-list">
+                    <ul>
+                      <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                      <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </footer>
+              <a href="#home" id="link-topo">
+                <i class="fas fa-arrow-up"></i>
+              </a>
         </div>
         <script src="./script.js"></script>
 </body>
