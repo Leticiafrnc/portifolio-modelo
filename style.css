@@ -447,42 +447,85 @@ footer{
     align-items: center;
   }
   
-  .footer-content{
+
+.footer-content{
     width: 60%;
     display: flex;
     justify-content: space-between;
-  }
-  
-  .footer-content p{
+}
+
+.footer-content p{
     font-family: var(--font-secundary);
     color: #a7a7a7;
     font-size: 1.2rem;
-  }
-  
-  .social-list a{
+}
+.social-list a{
     margin: 0 2rem;
     color: #a7a7a7;
     font-size: 1.3rem;
-  }
-  
-  .social-list ul {
+}
+
+.social-list ul {
     display: flex;
-  }
-  
-  #link-topo{
-    position: fixed;
-    right: 3rem;
-    bottom: 3rem;
-    width: 3rem;
-    height: 3rem;
-    background: #6a3093;
-    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
-    background: linear-gradient(to left, #a044ff, #6a3093);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    border-radius: .3rem;
-    box-shadow:  0 0.1rem 0.6rem #00000009;
-  }
-  
+}
+
+@media screen and (max-width: 992px) {
+    
+         .conhecimentos{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-items: center;
+        padding: 5% 10%;
+        }
+
+        .conhecimentos-img-wrapper img {
+            padding-left: 10%;
+        }
+    }
+
+
+@media screen and (max-width: 600px) {
+    .conhecimentos{
+        width: 100%;
+    }
+    .conhecimentos-img-wrapper img {
+        width: 100%;
+    }
+    .sessao-projetos{
+        width: 100%;
+        padding: 0 7%;
+    }
+    .sidebar{
+        display: block;
+    }
+    .sessao-contato{
+        width: 100%;
+    }
+    .contato-right{
+        width: 100%;
+        position: relative;
+        left: -50px;
+    }
+    .contato-left{
+        width: 100%;
+    }
+    .field-label {
+        padding: 0 10%;
+    }
+    
+    .footer-content{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    footer-content p {
+       margin-left: 10px;
+    }
+    .social-list ul {
+        display: inline-block;
+    }
+
+}
