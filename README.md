@@ -2,7 +2,7 @@
  Esse projeto foi desenvolvido como projeto de estudo, realizei algumas modificações no projeto, assim fortalecendo meus aprendizados em HTML, Css e Js. 
 
 <h4 align="center"> 
-🚧 ... Em Construção... 🚧
+... Em Construção... 🚧
 </h4>
 
 ### 📕 Aprendizados
@@ -13,7 +13,7 @@
 ### 🏁 Instalação
 
 Antes de começar, é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
-Clone este repositório usando git clone: https://github.com/Leticiafrnc/NLW.git ou clique em Code/Download ZIP. Clique no arquivo "index.HTML" e veja a aplicação.
+Clone este repositório usando git clone: https://github.com/Leticiafrnc/portifolio-modelo.git ou clique em Code/Download ZIP. Clique no arquivo "index.HTML" e veja a aplicação.
 
 ### 🛠 Tecnologias
 
