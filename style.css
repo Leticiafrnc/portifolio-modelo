@@ -157,7 +157,6 @@ button:hover{
     transition: all 1s;
     z-index: 80;
 }
-
 .show-menu .sidebar {
     right: 0;
 }
@@ -177,7 +176,6 @@ button:hover{
     color: #555;
     transition: color 1s;
 }
-
 .menu-link:hover {
     color: #6a3093;
 }
@@ -352,38 +350,35 @@ button:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .contato-wrapper {
+}
+
+.contato-wrapper {
     width: 60%;
     height: 30rem;
     display: flex;
     box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.5);
-  }
-  
-  .contato-left {
+}
+.contato-left {
     width: 35%;
     background: linear-gradient(rgba(15, 15, 15, 0.6), rgba(22, 22, 22, 0.9)),
-      url(assets/contato.jpg);
+    url(assets/contato.jpg);
     background-size: cover;
-  }
-  
-  .contato-right {
+}
+
+.contato-right {
     width: 65%;
     background-color: #eee;
     padding: 1rem 3rem 3rem 3rem;
-  }
-  
-  .sessao-contato h1 {
+}
+.sessao-contato h1 {
     width: 100%;
     text-align: center;
     font-family: var(--font-primary);
     color: #272727;
     font-size: 3rem;
     font-weight: lighter;
-  }
-  
-  .sessao-contato form {
+}
+.sessao-contato form {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -445,15 +440,12 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-
+}
 .footer-content{
     width: 60%;
     display: flex;
     justify-content: space-between;
 }
-
 .footer-content p{
     font-family: var(--font-secundary);
     color: #a7a7a7;
@@ -464,14 +456,12 @@ footer{
     color: #a7a7a7;
     font-size: 1.3rem;
 }
-
 .social-list ul {
     display: flex;
 }
-
 @media screen and (max-width: 992px) {
     
-         .conhecimentos{
+        .conhecimentos{
         display: flex;
         flex-wrap: wrap;
         align-items: center;
@@ -483,8 +473,6 @@ footer{
             padding-left: 10%;
         }
     }
-
-
 @media screen and (max-width: 600px) {
     .conhecimentos{
         width: 100%;
@@ -519,13 +507,13 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-
-    }
-    footer-content p {
-       margin-left: 10px;
     }
     .social-list ul {
         display: inline-block;
     }
-
+    .projetos {
+        display: block;
+        padding: 10% 10% 10%;
+    }
+    
 }
